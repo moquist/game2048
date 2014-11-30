@@ -127,9 +127,7 @@
 (defn game-over? [board]
   (= board
      (tilt board up)
-     (tilt board down)
-     (tilt board right)
-     (tilt board left)))
+     (tilt board right)))
 
 ;; Rubber meets the road from this point on.
 ;; every function below here are updater functions on game.
